@@ -38,7 +38,7 @@
         }
 
         .eatButton {
-          padding: 50px;
+          padding: 50px 0;
         }
 
         #content {
@@ -51,28 +51,32 @@
   </head>
 
   <body ng-app="starterApp" layout="row" ng-controller="UserController as ul" ng-cloak >
-  <md-content flex layout="column" tabIndex="-1" role="main" class="md-whiteframe-z2">
+    <md-content flex>
+      <md-content flex layout="row" tabIndex="-1" role="main">
 
-    <md-content flex id="content">
+        <md-content flex id="content">
 
-      <div layout="column" layout-align="center center">
-        <img class="logo" flex="90" src="assets/img/logo.png"></img>
-      </div>
+          <div layout="column" layout-align="center center">
+            <img class="logo" flex="90" src="assets/img/logo.png"></img>
+          </div>
 
-      <div class="slogan" layout="column" layout-align="center center">
-        Schedule meals fast -make recipes! Shop effieciantly -live healthy!
-      </div>
+          <div class="slogan" layout="column" layout-align="center center">
+            Schedule meals fast -make recipes! Shop effieciantly -live healthy!
+          </div>
 
-      <div layout="column" layout-align="center center">
-        <img class="plate" src="assets/img/plate.png"></img>
-      </div>
+          <div layout="column" layout-align="center center">
+            <img class="plate" src="assets/img/plate.png"></img>
+          </div>
 
-      <div class="eatButton" layout="column" layout-align="center center">
-        <img src="assets/img/button.png"></img>
-      </div>
+          <div class="eatButton" layout="column" layout-align="center center">
+            <a href="dinnerbell.html">
+              <img src="assets/img/button.png"></img>
+            </a>
+          </div>
+        </md-content>
+
+      </md-content>
     </md-content>
-
-  </md-content>
 
     <script src="./bower_components/angular/angular.js"></script>
     <script src="./bower_components/angular-animate/angular-animate.js"></script>
