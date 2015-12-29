@@ -1,4 +1,4 @@
-angular.module('dinnerbell.config', []).
+angular.module('dinnerbell.config', [])
     .config(function($mdThemingProvider, $mdIconProvider){
 
         $mdIconProvider
@@ -15,3 +15,14 @@ angular.module('dinnerbell.config', []).
                 .accentPalette('red');
 
     });
+
+
+          // angular
+          //     .module('starterApp', ['ngMaterial'])
+          //     .config(function($mdThemingProvider, $mdIconProvider){
+
+          //             $mdThemingProvider.theme('default')
+          //                 .primaryPalette('red')
+          //                 .accentPalette('purple');
+
+          //     });
