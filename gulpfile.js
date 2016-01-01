@@ -29,11 +29,7 @@ gulp.task('e2etests:run', ['e2etests:server'], function(cb) {
 	    }))
 	    .on('error', function(e) {
 			server.close();
-			if(isCI) {
-				throw e;
-			} else {
-				console.log(e);
-			}
+			console.log(e);
 			cb();
 		}).on('end', function() {
 			server.close();
