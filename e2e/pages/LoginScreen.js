@@ -15,7 +15,7 @@ var LoginScreen = function() {
 		// @Todo - remove sleep() when https://github.com/angular/protractor/issues/2154
 		browser.sleep(500);
 
-		return element(by.css('.loginGooleButton'));
+		return element(by.css('.loginGoogleButton'));
 	};
 
 	this.getFacebookLoginButton = function() {
@@ -37,7 +37,7 @@ var LoginScreen = function() {
 	};
 
 	this.getPasswordField = function() {
-		return element(by.css('.emailField'));
+		return element(by.css('.passwordField'));
 	};
 
 	this.getRegisterLink = function() {

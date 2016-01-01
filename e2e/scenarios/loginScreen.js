@@ -2,7 +2,7 @@
 
 var LoginScreen    = require('../pages/LoginScreen.js');
 
-describe('DinnerBell: LoginScreen', function() {
+describe('LoginScreen: ', function() {
 
 	var loginScreen   = new LoginScreen();
 
@@ -29,7 +29,7 @@ describe('DinnerBell: LoginScreen', function() {
 		});
 
 		it('should allow the user to signup for an account if they dont already have an account', function() {
-			expect(loginScreen.getGoogleLoginButton().isPresent()).toBeTruthy();
+			expect(loginScreen.getRegisterLink().isPresent()).toBeTruthy();
 		});
 	});
 

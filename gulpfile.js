@@ -40,6 +40,6 @@ gulp.task('e2etests:run', ['e2etests:server'], function(cb) {
 // Download and update the selenium driver
 //gulp.task('e2etests:webdriver_manager_update', gp.webdriver_update);
 
-gulp.task('e2etests:server', function(cb) {
+gulp.task('e2etests:server', ['sass'], function(cb) {
 	server.listen(9001, cb);
 });
