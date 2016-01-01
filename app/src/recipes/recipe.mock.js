@@ -13,7 +13,7 @@ angular.module('recipe.mock', [])
             servings: 4,
             servingSize: "1 pepper",
             dietInfo: {
-                21day: {
+                twentyOneDay: {
                     green: 2,
                     red: 1,
                     yellow: 0.5,
@@ -22,7 +22,6 @@ angular.module('recipe.mock', [])
             },
             ingredients: [
                 "4 bell peppers, any kind",
-                " Hi aimee sdfkjdfj ksdfk"
                 "½ pound 93% lean ground turkey",
                 "1 15 oz can fire roasted tomatoes",
                 "2 grated garlic cloves",
@@ -60,7 +59,7 @@ angular.module('recipe.mock', [])
             servings: 4,
             servingSize: "1 sandwhich",
             dietInfo: {
-                21day: {
+                twentyOneDay: {
                     purple: 0.25,
                     red: 1,
                     yellow: 1,
@@ -93,7 +92,7 @@ angular.module('recipe.mock', [])
             servings: 2,
             servingSize: "1 corn tortilla",
             dietInfo: {
-                21day: {
+                twentyOneDay: {
                     purple: 0,
                     red: 1,
                     yellow: 1,
@@ -138,7 +137,7 @@ angular.module('recipe.mock', [])
             servings: 0,
             servingSize: "",
             dietInfo: {
-                21day: {
+                twentyOneDay: {
                     purple: 0,
                     red: 0,
                     yellow: 0,

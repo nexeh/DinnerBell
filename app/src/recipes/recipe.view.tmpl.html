@@ -1,0 +1,47 @@
+
+<h2>{{recipe.title}}</h2>
+    
+<ul id="UL_1">
+	<li id="LI_2"> <span id="SPAN_3"></span></li> 
+	<li id="LI_4">
+		<p id="P_5">
+			Prep
+		</p>
+		<time id="TIME_6">
+			<span id="SPAN_7">15</span> m
+		</time>
+	</li>
+	<li id="LI_8">
+		<p id="P_9">
+			Cook
+		</p>
+		<time id="TIME_10">
+			<span id="SPAN_11">2</span> h <span id="SPAN_12">45</span> m
+		</time>
+	</li>
+	<li id="LI_13">
+		<p id="P_14">
+			Ready In
+		</p>
+		<time id="TIME_15">
+			<span id="SPAN_16">3</span> h
+		</time>
+	</li>
+</ul>
+
+<img src="http://placehold.it/500x500" ></img>
+
+
+<h2>Ingredients</h2>
+
+	<div class="ingredient" property="ingredients" ng-repeat="ingredient in recipe.ingredients">{{ingredient}}</div>
+
+<h2>Directions</h2>
+
+
+          <div class="instruction" property="recipeInstructions" ng-repeat="instruction in recipe.instructions">
+ {{instruction}}</div>
+
+<h2>Diet Information</h2>
+
+

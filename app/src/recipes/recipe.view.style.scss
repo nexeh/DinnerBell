@@ -1,0 +1,203 @@
+.instruction {
+    padding: 0px 0px 0px 100px;
+    margin: 0px 0px 50px;
+    counter-increment: ingredientCount;
+    position: relative;
+}
+
+.instruction::before {
+    text-rendering: optimizelegibility;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    content: counter(ingredientCount, decimal);
+    position: absolute;
+    display: block;
+    padding: 25px;
+    height: 70px;
+    width: 70px;
+    border: 1px dashed #111;
+    border-radius: 50%;
+    color: #111;
+    font-family: "tradegothicboldcondtwenty";
+    font-size: 21px;
+    line-height: 1;
+    font-weight: 100;
+    left: 0px;
+    text-align: center;
+}
+
+.ingredient {
+    position: relative;
+    line-height: 1.25;
+    padding: 0px 0px 10px 20px;
+    cursor: pointer;
+}
+
+#UL_1 {
+    box-sizing: border-box;
+    clear: both;
+    color: rgb(45, 45, 45);
+    float: left;
+    height: 46px;
+    width: 573.188px;
+    perspective-origin: 286.594px 23px;
+    transform-origin: 286.594px 23px;
+    border: 0px none rgb(45, 45, 45);
+    font: normal normal normal normal 14.2222px / normal 'Source Sans Pro', Arial;
+    list-style: none outside none;
+    margin: 12.8px 31.8438px 16px 24px;
+    outline: rgb(45, 45, 45) none 0px;
+    padding: 0px;
+}/*#UL_1*/
+
+#LI_2 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    float: left;
+    height: 42px;
+    text-align: center;
+    width: 42px;
+    perspective-origin: 21px 21px;
+    transform-origin: 21px 21px;
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 14.2222px / 24px 'Source Sans Pro', Arial;
+    list-style: none outside none;
+    margin: 0px -10.4px 0px 8px;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#LI_2*/
+
+#SPAN_3 {
+    background-position: -10px -222px;
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    display: block;
+    height: 42px;
+    text-align: center;
+    width: 42px;
+    z-index: 0;
+    perspective-origin: 21px 21px;
+    transform: matrix(0.75, 0, 0, 0.75, 0, 0);
+    transform-origin: 21px 21px;
+    background: rgba(0, 0, 0, 0) url("http://images.media-allrecipes.com/ar-images/sprites/recipe_directions_icons_031115.svg") no-repeat scroll -10px -222px / auto padding-box border-box;
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 14.2222px / 24px 'Source Sans Pro', Arial;
+    list-style: none outside none;
+    margin: 0px 0px 0px -3px;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#SPAN_3*/
+
+#LI_4 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    float: left;
+    height: 46px;
+    text-align: center;
+    width: 80px;
+    perspective-origin: 40px 23px;
+    transform-origin: 40px 23px;
+    border-top: 0px none rgb(153, 153, 153);
+    border-right: 1px solid rgb(230, 230, 230);
+    border-bottom: 0px none rgb(153, 153, 153);
+    border-left: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 14.2222px / 24px 'Source Sans Pro', Arial;
+    list-style: none outside none;
+    margin: 0px 0px 0px -2.4px;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 0px 4px;
+}/*#LI_4*/
+
+#P_5, #P_9 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    height: 18px;
+    text-align: center;
+    width: 71px;
+    perspective-origin: 35.5px 9px;
+    transform-origin: 35.5px 9px;
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 14px / 18px 'Source Sans Pro', Arial;
+    list-style: none outside none;
+    margin: 4px 0px 0px;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#P_5, #P_9*/
+
+#TIME_6, #TIME_10, #TIME_15 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    text-align: center;
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 14.2222px / 24px 'Source Sans Pro', Arial;
+    list-style: none outside none;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#TIME_6, #TIME_10, #TIME_15*/
+
+#SPAN_7, #SPAN_11, #SPAN_16 {
+    box-sizing: border-box;
+    color: rgb(77, 77, 77);
+    text-align: center;
+    border: 0px none rgb(77, 77, 77);
+    font: normal normal normal normal 14px / 24px 'Source Sans Pro', Arial;
+    list-style: none outside none;
+    outline: rgb(77, 77, 77) none 0px;
+}/*#SPAN_7, #SPAN_11, #SPAN_16*/
+
+#LI_8 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    float: left;
+    height: 46px;
+    text-align: center;
+    width: 80px;
+    perspective-origin: 40px 23px;
+    transform-origin: 40px 23px;
+    border-top: 0px none rgb(153, 153, 153);
+    border-right: 1px solid rgb(230, 230, 230);
+    border-bottom: 0px none rgb(153, 153, 153);
+    border-left: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 14.2222px / 24px 'Source Sans Pro', Arial;
+    list-style: none outside none;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 0px 4px;
+}/*#LI_8*/
+
+#SPAN_12 {
+    box-sizing: border-box;
+    color: rgb(77, 77, 77);
+    text-align: center;
+    border: 0px none rgb(77, 77, 77);
+    font: normal normal normal normal 14px / 24px 'Source Sans Pro', Arial;
+    list-style: none outside none;
+    outline: rgb(77, 77, 77) none 0px;
+}/*#SPAN_12*/
+
+#LI_13 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    float: left;
+    height: 46px;
+    text-align: center;
+    width: 80px;
+    perspective-origin: 40px 23px;
+    transform-origin: 40px 23px;
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 14.2222px / 24px 'Source Sans Pro', Arial;
+    list-style: none outside none;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 0px 4px;
+}/*#LI_13*/
+
+#P_14 {
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    height: 18px;
+    text-align: center;
+    width: 72px;
+    perspective-origin: 36px 9px;
+    transform-origin: 36px 9px;
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal normal normal 14px / 18px 'Source Sans Pro', Arial;
+    list-style: none outside none;
+    margin: 4px 0px 0px;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#P_14*/
+
