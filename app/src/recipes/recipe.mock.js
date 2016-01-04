@@ -146,7 +146,6 @@ angular.module('recipe.mock', [])
                     orange: 0,
                     grey: 0
                 },
-                ,
                 wwPointsPlus: {
                     points: 0,
                     notes: ""

@@ -15,6 +15,7 @@ var useref = require('gulp-useref');
 var clean = require('gulp-clean');
 var templateCache = require('gulp-angular-templatecache');
 var addStream = require('add-stream');
+var includeSources = require('gulp-include-source')
  
 gulp.task('sass', function () {
   gulp.src('./app/**/*.scss')
@@ -56,7 +57,9 @@ gulp.task('build', ['build:clean', 'build:assets', 'build:html', 'build:template
 });
 
 gulp.task('build:html', [], function () {
+
     return gulp.src('app/index.html')
+    	.pipe( includeSources() )
         .pipe(useref())
         .pipe(gulp.dest(configuration.buildDir));
 });
